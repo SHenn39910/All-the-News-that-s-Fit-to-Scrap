@@ -1,4 +1,4 @@
-const logger = require("morgan");
+// const logger = require("morgan");
 
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
@@ -6,7 +6,7 @@ const cheerio = require("cheerio");
 const axios = require("axios");
 
 //require models
-const db = require("./models");
+// const db = require("./models");
 const PORT = process.env.PORT || 3000;
 
 const express = require("express");
@@ -39,6 +39,7 @@ var port = process.env.PORT || 3000;
 app.listen(port, function(){
     console.log("Listening on Port" + port);
 });
+
 
 
 
